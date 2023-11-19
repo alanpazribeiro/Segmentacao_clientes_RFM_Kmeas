@@ -66,8 +66,8 @@ Banco de dados de um dos serviços concorrentes nesse mercado que contém dados 
  - Arquivo 5: contém informações sobre as dados sobre revisão dos clientes - (reviews — avaliação):
    - review_id — identificador da revisão
    - book_id — identificador do livro
-  - username — o nome do usuário que revisou o livro
-  - text — o texto da revisão
+   - username — o nome do usuário que revisou o livro
+   - text — o texto da revisão
 
 ### 2. Tarefa
    1. Encontre o número de livros lançados depois de 1 de janeiro de 2000.
