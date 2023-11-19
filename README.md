@@ -1,4 +1,4 @@
-# Segmentacao_clientes_RFM_Kmeans
+# Teste AB, SQL e Segmentacao de clientes com Cohort, RFM e Machine Learning
 Projeto Final - Análise de um Teste A/B, Análise e consultas em SQL e Segmentação de clientes via Cohort, RFM e K-means
 
 _______
