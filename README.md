@@ -40,31 +40,32 @@ ___________________________________________________________________
 Banco de dados de um dos serviços concorrentes nesse mercado que contém dados sobre livros, editoras, autores, e classificação de clientes e avaliação de livros. Essa informação será usada para gerar uma proposição válida para o novo produto.
 
 ### 1. Descrição dos dados:
+
  - Arquivo 1: contém informações sobre os livros - (books — livros):
-  - book_id — identificador do livro
-  - author_id — identificador do autor
-  - title — título
-  - num_pages — número de páginas
-  - publication_date — data de publicação
-  - publisher_id — identificador da editora
+   - book_id — identificador do livro
+   - author_id — identificador do autor
+   - title — título
+   - num_pages — número de páginas
+   - publication_date — data de publicação
+   - publisher_id — identificador da editora
   
  - Arquivo 2: contém informações sobre os autores - (authors — autores):
-  - author_id — identificador do autor
-  - author — autor
+   - author_id — identificador do autor
+   - author — autor
     
 - Arquivo 3: contém informações sobre as editoras - (publishers — editoras):
-  - publisher_id — identificador da editora
-  - publisher — editora
+   - publisher_id — identificador da editora
+   - publisher — editora
     
  - Arquivo 4: contém informações sobre as classificação dos usuários - (ratings — classificações):
-  - rating_id — identificador da classificação
-  - book_id — identificador do livro
-  - username — o nome do usuário que avaliou o livro
-  - rating — classificação
+   - rating_id — identificador da classificação
+   - book_id — identificador do livro
+   - username — o nome do usuário que avaliou o livro
+   - rating — classificação
     
  - Arquivo 5: contém informações sobre as dados sobre revisão dos clientes - (reviews — avaliação):
-  - review_id — identificador da revisão
-  - book_id — identificador do livro
+   - review_id — identificador da revisão
+   - book_id — identificador do livro
   - username — o nome do usuário que revisou o livro
   - text — o texto da revisão
 
