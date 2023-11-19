@@ -35,6 +35,7 @@ Você recebeu uma tarefa analítica de uma loja online internacional. Seu predec
   - ab_test: o nome do teste;
   - group: grupo do teste que o usuário pertencia;
 #### Faça o download dos dados de teste, veja se foi realizado corretamente, e analise os resultados.
+___________________________________________________________________
 
 ## Parte 2 - 
 Banco de dados de um dos serviços concorrentes nesse mercado que contém dados sobre livros, editoras, autores, e classificação de clientes e avaliação de livros. Essa informação será usada para gerar uma proposição válida para o novo produto.
@@ -63,6 +64,21 @@ Banco de dados de um dos serviços concorrentes nesse mercado que contém dados 
   - book_id — identificador do livro
   - username — o nome do usuário que revisou o livro
   - text — o texto da revisão
+
+### 2. Tarefa
+   1. Encontre o número de livros lançados depois de 1 de janeiro de 2000.
+   2. Encontre o número de avaliações e a classificação média para cada livro.
+   3. Identifique a editora que lançou o maior número de livros com mais de 50 páginas (isso vai ajudar você a excluir brochuras e publicações parecidas da sua análise).
+   4. Identifique o autor com a média mais alta classificação de livros: olhe apenas para livros com pelo menos 50 classificações.
+   5. Encontre o número médio de avaliações entre usuários que classificaram mais do que 50 livros.
+
+### 3. Instruções para completar a tarefa
+   1. Descreva os objetivos do estudo.
+   2. Estude as tabelas (imprima as primeiras linhas).
+   3. Faça uma consulta SQL para cada uma das tarefas.
+   4. Enuncie os resultados de cada consulta no Caderno.
+
+### 4. Descreva suas conclusões para cada uma das tarefas.
 ____________________________________________________
 ## Parte 3 - 
  - Empresa: Everything Plus
