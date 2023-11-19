@@ -1,6 +1,8 @@
 # Segmentacao_clientes_RFM_Kmeans
 Projeto Final - Análise de um Teste A/B, Análise e consultas em SQL e Segmentação de clientes via Cohort, RFM e K-means
 
+_______
+
 ## Parte 1 - Análise de um Teste A/B
 Você recebeu uma tarefa analítica de uma loja online internacional. Seu predecessor não conseguiu completá-la: eles lançaram um teste A/B e depois desistiu. Eles deixaram apenas as especificações técnicas e resultado dos testes.
 
