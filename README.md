@@ -1,8 +1,7 @@
 # Segmentacao_clientes_RFM_Kmeans
-Projeto Final - Segmentação de usuários com base em seu perfil consumidor aplicando Machine Learning, Cohort e Análise RFM afim de obter insights de negócios.
+Projeto Final - Análise de um Teste A/B, Análise e consultas em SQL e Segmentação de clientes via Cohort, RFM e K-means
 
-
-## Parte 1 - 
+## Parte 1 - Análise de um Teste A/B
 Você recebeu uma tarefa analítica de uma loja online internacional. Seu predecessor não conseguiu completá-la: eles lançaram um teste A/B e depois desistiu. Eles deixaram apenas as especificações técnicas e resultado dos testes.
 
 ### Descrição técnica:
@@ -37,7 +36,7 @@ Você recebeu uma tarefa analítica de uma loja online internacional. Seu predec
 #### Faça o download dos dados de teste, veja se foi realizado corretamente, e analise os resultados.
 ___________________________________________________________________
 
-## Parte 2 - Análise em SQL 
+## Parte 2 - Análise e consultas em SQL 
 Banco de dados de um dos serviços concorrentes nesse mercado que contém dados sobre livros, editoras, autores, e classificação de clientes e avaliação de livros. Essa informação será usada para gerar uma proposição válida para o novo produto.
 
 ### 1. Descrição dos dados:
@@ -84,7 +83,9 @@ Banco de dados de um dos serviços concorrentes nesse mercado que contém dados 
 
 ### 4. Descreva suas conclusões para cada uma das tarefas.
 ____________________________________________________
-## Parte 3 - 
+
+## Parte 3 -  Segmentação de usuários com base em seu perfil consumidor aplicando Machine Learning, Cohort e Análise RFM afim de obter insights de negócios.
+
  - Empresa: Everything Plus
  - Ramo: E-commerce
  - Objetivo do Projeto: Segmentação de usuários com base em seu perfil consumidor, afim de obter insights de negócios
