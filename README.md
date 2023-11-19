@@ -5,7 +5,7 @@ Projeto Final - Segmentação de usuários com base em seu perfil consumidor apl
 ## Parte 1 - 
 Você recebeu uma tarefa analítica de uma loja online internacional. Seu predecessor não conseguiu completá-la: eles lançaram um teste A/B e depois desistiu. Eles deixaram apenas as especificações técnicas e resultado dos testes.
 
-##Descrição técnica:
+### Descrição técnica:
  - Nome do teste: recommender_system_test
  - Grupos: A(controle) e B(funil de novos pagamentos)
  - Data de início: 07-12-2020
@@ -15,26 +15,26 @@ Você recebeu uma tarefa analítica de uma loja online internacional. Seu predec
  - Propósito do teste: testando mudanças relacionadas à introdução de uma recomendação do sistema melhorada
  - Resultado esperado: em até 14 dias após o cadastro, usuários mostram uma conversão melhor nas visualizações de página do produto (o evento product_page event), ao adicionar itens ao carrinho (product_cart), e compras (purchase). A cada etapa do funil product_page → product_cart → purchase, terá ao menos 10% de aumento.
  - Número esperado de participantes do teste: 6000
-### Arquivo 1: Calendário de Eventos de Marketing para 2020 - ('ab_project_marketing_events_us.csv'):
+#### Arquivo 1: Calendário de Eventos de Marketing para 2020 - ('ab_project_marketing_events_us.csv'):
   - name: nome dos eventos de marketing;
   - regions: as regiões onde as campanhas serão realizadas;
   - start_dt: as datas de início da campanha;
   - finish_dt: as datas finais da campanha;
-### Arquivo 2: Usuários que se cadastraram na loja online de 7 a 21 de dezembro de 2020 - ('final_ab_new_users_upd_us.csv')
+#### Arquivo 2: Usuários que se cadastraram na loja online de 7 a 21 de dezembro de 2020 - ('final_ab_new_users_upd_us.csv')
   - user_id: identificação do usuário;
   - first_date: data do cadastro;
   - region: região de localidade do usuário;
   - device: tipo de dispositivo utilizado para o cadastro
-### Arquivo 3: Eventos dos novos usuários dentro do período de 7/12/2020 até 1/1/2021 - ('final_ab_events_upd_us.csv')
+#### Arquivo 3: Eventos dos novos usuários dentro do período de 7/12/2020 até 1/1/2021 - ('final_ab_events_upd_us.csv')
   - user_id: identificação do usuário;
   - event_id: data e hora do evento;
   - event_name: tipo do evento;
   - details: dos dados adicionais sobre o evento (por exemplo, o total do pedido em USD para eventos purchase)
-### Arquivo 4: Tabela com os participantes do teste - ('final_ab_participants_upd_us.csv')
+#### Arquivo 4: Tabela com os participantes do teste - ('final_ab_participants_upd_us.csv')
   - user_id: identificação do usuário;
   - ab_test: o nome do teste;
   - group: grupo do teste que o usuário pertencia;
-### Faça o download dos dados de teste, veja se foi realizado corretamente, e analise os resultados.
+#### Faça o download dos dados de teste, veja se foi realizado corretamente, e analise os resultados.
 
 ## Parte 2 - 
 
