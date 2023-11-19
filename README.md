@@ -37,7 +37,7 @@ Você recebeu uma tarefa analítica de uma loja online internacional. Seu predec
 #### Faça o download dos dados de teste, veja se foi realizado corretamente, e analise os resultados.
 ___________________________________________________________________
 
-## Parte 2 - 
+## Parte 2 - Análise em SQL 
 Banco de dados de um dos serviços concorrentes nesse mercado que contém dados sobre livros, editoras, autores, e classificação de clientes e avaliação de livros. Essa informação será usada para gerar uma proposição válida para o novo produto.
 
 ### 1. Descrição dos dados:
@@ -48,17 +48,21 @@ Banco de dados de um dos serviços concorrentes nesse mercado que contém dados 
   - num_pages — número de páginas
   - publication_date — data de publicação
   - publisher_id — identificador da editora
+  
  - Arquivo 2: contém informações sobre os autores - (authors — autores):
   - author_id — identificador do autor
   - author — autor
+    
 - Arquivo 3: contém informações sobre as editoras - (publishers — editoras):
   - publisher_id — identificador da editora
   - publisher — editora
+    
  - Arquivo 4: contém informações sobre as classificação dos usuários - (ratings — classificações):
   - rating_id — identificador da classificação
   - book_id — identificador do livro
   - username — o nome do usuário que avaliou o livro
   - rating — classificação
+    
  - Arquivo 5: contém informações sobre as dados sobre revisão dos clientes - (reviews — avaliação):
   - review_id — identificador da revisão
   - book_id — identificador do livro
